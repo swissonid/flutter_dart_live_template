@@ -14,18 +14,50 @@ A collection of my personal [Flutter](https://flutter.io) / [Dart](https://www.d
 
 ## Live Templates in Action 🎬
 
-___
+### buitvaldep
+The [Live Templates][1] `buitvaldep` adds all the needed dart packages to your project. Do not forgett to add the **dev_dependencies** with . Right now the version are code in the [Live Template][1], I will try to make it dynamic with a request to [pub.dartlang.org][2] to get the latest version.
+
+![Live Template builtvaldep](./gif/builtvaldep.gif)
+
+### builtvaldevdep
+The [Live Templates][1] `builtvaldevdep` adds all the needed **dev_dependencies** to your project.
+
+![Live Template builtvaldevdep](./gif/builtvaldevdep.gif)
+
+### builtvalf
+The [Live Templates][1] `builtvalf` creates a Built Value based on your file name.
+
+![Live Template builtvalf](./gif/builtvalf.gif)
+
+### builtvalfs
+The [Live Templates][1] `builtvalfs` is just an varian of `builtvalf` which adds the line of code for the serializer to the generated Built Value.
+
+![Screenshot Live Templates builtvalfs](./img/builtvalfs.png)
+
+### builtval
+The [Live Templates][1] `builtval` just adds a Built Value to the file. 
+
+![Screenshot Live Templates builtval](./gif/builtval.gif)
 
 
-[1]: https://www.jetbrains.com/help/idea/settings-live-templates.html
+### serjson
+The [Live Templates][1] `serjson` generates the boilerplate code for a an serializer with the StandartJsonPlung.
+
+![Screenshot Live Templates serjson](./gif/serjson.gif)
+
 
 
 # Todos ✅ / Ideas 💡
-- [ ] Get the newest version for the **builtvaldevdep** sniped live from [pub.dartlang.org](https://pub.dartlang.org/)
+- [ ] Get the newest version for the **builtvaldevdep** sniped live from [pub.dartlang.org][2]
 
 - [ ] Make renaming of **Built Value** easier
 
+
+
 # Disclaimer Flutter 
-The two snipped (**snk** & **stmbld**) in the flutter section, are just my implementation of the snippes from [Filip Hracek](https://github.com/filiph) which you can see at the flutter talk [**Build   reactive mobile apps with Flutter** at Google I/O](https://youtu.be/RS36gBEp8OI?t=24m16s) or in [The Boring Flutter Development Show, Ep. 4](https://youtu.be/fahC3ky_zW0?t=56m55s)
+The two [Live Templates][1]  (**snk** & **stmbld**) in the flutter section, are just my implementation of the snippes from [Filip Hracek](https://github.com/filiph) which you can see at the flutter talk [**Build   reactive mobile apps with Flutter** at Google I/O](https://youtu.be/RS36gBEp8OI?t=24m16s) or in [The Boring Flutter Development Show, Ep. 4](https://youtu.be/fahC3ky_zW0?t=56m55s)
 
 ![Screenhot flutter Live Templates](./img/flutter_live_templates.png)
+
+[1]: https://www.jetbrains.com/help/idea/settings-live-templates.html
+[2]: https://pub.dartlang.org/
