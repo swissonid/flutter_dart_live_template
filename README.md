@@ -3,7 +3,7 @@ A collection of my personal [Flutter](https://flutter.io) / [Dart](https://www.d
 
 
 ## To import live template configuration into your Intellij / WebStorm / Android Studio: 
-1. [Download the jar](./flutter_built_value_template.jar).
+1. [Download the jar](https://github.com/swissonid/flutter_dart_live_template/raw/master/flutter_built_value_template.jar).
 2. Open Intellij / WebStorm / Android Studio
 3. On the **File** menu, click **Import Settings**.
 4. Specify the path to the JAR file with the exported live template configuration
